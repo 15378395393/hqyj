@@ -21,6 +21,8 @@ public class TestController extends SpringBootServletInitializer{
 	@Value("${com.hqyj.random}")
 	private String random;
 	
+	
+	
 	@Autowired
 	private ConfigTestBean configTestBean;
 	
